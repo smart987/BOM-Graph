@@ -1,0 +1,29 @@
+{
+
+  
+   "nodes" : [
+
+              { "id": 1, "label": "End Product", "level": 0 },
+              { "id": 2, "label": "A 1", "level": 1 },
+              { "id": 3, "label": "A 2", "level": 1 },
+              { "id": 4, "label": "A 3", "level": 1 },
+              { "id": 5, "label": "B 1", "level": 2 },
+              { "id": 6, "label": "C 1", "level": 3 },
+			  { "id": 7, "label": "B 2", "level": 2 },
+              { "id": 8, "label": "B 3", "level": 2 }
+              
+            ],
+
+
+   "edges" : [
+
+              { "from": 1, "to": 2 },
+              { "from": 1, "to": 3 },
+              { "from": 1, "to": 4 },
+              { "from": 2, "to": 5 },
+              { "from": 5, "to": 6 },
+			  { "from": 3, "to": 7 },
+              { "from": 4, "to": 8 }
+             
+            ]
+}

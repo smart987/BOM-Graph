@@ -1,0 +1,21 @@
+{
+
+"nodes": [
+
+    {
+        "id": 1,
+        "children": [ { "childId": 2 }, { "childId": 3 } ],
+        "label": "End Product",
+        "level": 0
+
+    },
+
+    {
+        "id": 2,
+        "children": [ { "childId": 4 }, { "childId": 6 }, { "childId": 8 } ],
+        "label": "A 1",
+        "level": 1
+
+    }
+
+	...

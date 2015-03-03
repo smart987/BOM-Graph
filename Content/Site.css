@@ -1,0 +1,39 @@
+﻿
+body {
+    padding:10px 10px;
+}
+
+#graph {
+    width:700px;
+    height:380px;
+    position:relative;
+    margin:40px;
+    
+}
+
+canvas {
+    position:relative;
+    right:0;
+}
+
+.node {
+    display:inline-block;
+    margin:30px 35px;
+    width:300px;
+    
+}
+
+label, input, button {
+    display:inline-block;
+    margin:5px 5px;
+}
+label {
+    width:50px;
+}
+input {
+    width:145px;
+}
+
+.col {
+    width:120px;
+}
